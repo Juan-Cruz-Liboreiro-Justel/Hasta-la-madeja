@@ -1,0 +1,635 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-image: linear-gradient(rgba(5, 10, 5, 0.80), rgba(90, 40, 90, 0.80)), url(img/fondo1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: rgb(255, 255, 255);
+}
+
+html a {
+  color: rgb(255, 255, 255);
+}
+
+
+/*  NAVBAR */
+
+.nav {
+  width: 100%;
+  height: auto;
+}
+
+.navbar {
+  width: 80%;
+  margin: auto;
+  padding: 35px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.logo {
+  width: 130px;
+  cursor: pointer;
+}
+
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  position: relative;
+
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  font-family: 'Indie Flower', cursive;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-size: 1.2rem;
+}
+
+.navbar ul li::before {
+  content: "";
+  height: 3px;
+  width: 0%;
+  background: rgb(255, 255, 255);
+  position: absolute;
+  left: 0;
+  bottom: -12px;
+  transition: 0.4s ease-out;
+}
+
+.navbar ul li:hover::before {
+  width: 100%;
+}
+
+
+/* NAVBAR */
+
+/* FOOTER */
+
+.footer {
+  width: 100%;
+  background-color: rgba(1, 1, 1, 0.80);
+  color: rgb(255, 255, 255);
+  font-size: 0.8rem;
+  font-family: 'Indie Flower', cursive;
+  letter-spacing: 3.5px;
+}
+
+
+.copy_redes a img {
+  width: 30px;
+  height: 30px;
+}
+
+.copy_redes ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 10px;
+  position: relative;
+}
+
+.copy_redes {
+  width: 80%;
+  margin: auto;
+  padding: 35px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.design a {
+  text-decoration: none;
+}
+
+.design {
+  margin: auto;
+  padding: 0 0 35px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* FOOTER */
+
+/* BOTON VOLVER A ARRIBA*/
+
+.btn_arriba a img {
+  width: 60px;
+  height: 60px;
+  position: fixed;
+  bottom: 50px;
+  right: 15px;
+  background-color: rgba(1, 1, 1, 0.80);
+  border-radius: 50%;
+  padding: 4px;
+}
+
+/* BOTON VOLVER A ARRIBA*/
+
+
+/* HOME*/
+
+/* PROMOS */
+.home_promos_contenedor_img {
+  width: 65%;
+  background-color: rgb(255, 255, 255);
+  padding: 15px 15px 40px 15px;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.4);
+}
+
+/* PROMOS */
+
+
+/* INFO */
+
+.home_info {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 35px 0;
+}
+
+.home_info h2 {
+  font-family: 'Indie Flower', cursive;
+  font-size: 3rem;
+  letter-spacing: 2px;
+}
+
+.home_info p {
+  font-family: 'Indie Flower', cursive;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+}
+
+/* INFO */
+
+
+/* CATEGORIAS */
+
+.home_categorias {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+ 
+.home_categorias {
+  width: 80%;
+  display: flex;
+}
+
+.home_categorias_cat {
+  background-color: rgb(255, 255, 255);
+  padding: 15px;
+  display: inline-block;
+  margin: 0 1rem;
+  box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.4);
+  cursor: pointer;
+  transition: all 0.5s;
+  
+}
+
+.home_categorias_cat_img {
+  filter: brightness(30%);
+  height: 450px;
+}
+.home_categorias_cat:hover{
+transform: scale(1.05);
+}
+
+.home_categorias_cat:hover>.home_categorias_cat_img{
+  filter: none;
+}
+
+.home_categorias_cat_nombre {
+  font-size: 1.5rem;
+  font-family: 'Indie Flower', cursive;
+  color: rgb(0, 0, 0);
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+/* CATEGORIAS */
+
+
+/* PREGUNTAS FRECUENTES */
+
+.home_preguntas {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+
+.home_preguntas_titulo {
+  font-size: 3rem;
+  font-family: 'Indie Flower', cursive;
+  align-items: center;
+  margin: 35px 0;
+}
+
+.home_preguntas_contenedor {
+  margin: auto;
+  width: 70%;
+}
+
+.home_preguntas_frecuentes {
+  font-size: 2rem;
+  font-family: 'Indie Flower', cursive;
+  padding: 5px 25px;
+  background-color: rgba(1, 1, 1, 0.80);
+  box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.4);
+  cursor: pointer;
+  margin: 2px 0;
+}
+
+/*.home_preguntas_respuesta{
+  font-size: 1.2rem;
+  font-family: 'Indie Flower', cursive;
+  padding: 5px 15px;
+  background-color: rgba(1, 1, 1, 0.60);
+  margin-bottom: 2px;
+}*/
+
+
+.home_preguntas_dudas {
+  font-size: 1.5rem;
+  font-family: 'Indie Flower', cursive;
+  letter-spacing: 2px;
+  align-items: center;
+  margin: 15px 0;
+}
+
+.home_preguntas_dudas a {
+  text-decoration: none;
+  font-weight: 700;
+}
+
+/* PREGUNTAS FRECUENTES */
+
+/* HOME */
+
+
+
+
+
+
+/* CLIENTES */
+
+/* TITULO */
+.clientes_titulo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 35px 0;
+}
+
+.clientes_titulo h1 {
+  font-family: 'Indie Flower', cursive;
+  font-size: 3rem;
+}
+
+.clientes_titulo p {
+  font-family: 'Indie Flower', cursive;
+  font-size: 1.5rem;
+}
+
+/* TITULO */
+
+.clientes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-bottom: 35px;
+}
+
+.clientes_caja {
+  width: 500px;
+  box-shadow: 2px 2px 30px rgba(255, 255, 255, 0.3);
+  background-color: rgba(1, 1, 1, 0.60);
+  padding: 20px;
+  margin: 15px;
+  cursor: pointer;
+}
+
+.clientes_perfil_img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 30px;
+}
+
+.clientes_perfil_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: center;
+}
+
+.clientes_perfil {
+  display: flex;
+  align-items: center;
+}
+
+.clientes_perfil_nombre {
+  display: flex;
+  flex-direction: column;
+}
+
+.clientes_perfil_nombre h2 {
+  font-size: 1.3rem;
+  font-family: roboto, "sans serif";
+}
+
+.clientes_perfil_nombre p {
+  font-size: 1rem;
+  color: rgb(90, 90, 90);
+  font-family: roboto, "sans serif";
+}
+
+.clientes_estrellas {
+  color: #a81cf9;
+}
+
+.clientes_caja_top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.clientes_opinion p {
+  font-size: 1.1rem;
+  font-family: roboto, "sans serif";
+}
+
+/* CLIENTES */
+
+
+
+
+
+
+
+
+/* CONTACTO */
+
+/* MAIN */
+
+.contacto_main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* MAIN */
+
+/* TITULO */
+
+.contacto_titulo {
+  margin: 35px 0;
+  font-size: 3rem;
+  font-family: 'Indie Flower', cursive;
+}
+
+/* TITULO */
+
+/* FORMULARIO */
+
+.contacto_contenedor {
+  /*background-color: rgba(1, 1, 1, 0.8);*/
+  width: 550px;
+  margin: auto;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border-radius: 7px;
+  box-shadow: 8px;
+}
+
+.contacto_formulario input,
+.contacto_formulario textarea {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 8px;
+  border: none;
+  outline: none;
+  margin: 5px;
+  font-size: 1.1rem;
+  font-family: 'Indie Flower', cursive;
+  background-color: rgba(1, 1, 1, 0.8);
+  color: rgb(255, 255, 255);
+  padding: 10px;
+}
+
+.contacto_formulario textarea {
+  min-width: 100px;
+}
+
+.contacto_formulario .contacto_btn_enviar {
+  display: flex;
+  background-color: rgba(1, 1, 1, 0.8);
+  width: 100%;
+  border: none;
+  padding: 15px;
+  font-size: 1.3rem;
+  font-family: 'Indie Flower', cursive;
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* FORMULARIO */
+
+/* MENSAJE AL CLIENTE */
+
+.contacto_respuesta {
+  font-size: 2rem;
+  font-family: 'Indie Flower', cursive;
+  margin: 20px;
+}
+
+/* MENSAJE AL CLIENTE */
+
+/* CONTACTO */
+
+
+
+
+
+
+/* GALERIA */
+
+/* TITULO */
+
+.galeria_titulo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.galeria_titulo h1 {
+  font-size: 3rem;
+  font-family: 'Indie Flower', cursive;
+  letter-spacing: 3.5px;
+}
+
+.galeria_titulo p {
+  font-size: 1.5rem;
+  font-family: 'Indie Flower', cursive;
+  letter-spacing: 3.5px;
+}
+
+/* TITULO */
+
+/* GALERIA */
+
+.galeria_main img {
+  width: 100%;
+}
+
+.galeria {
+  display: flex;
+  padding: 15px;
+}
+
+.galeria_columna {
+  flex: 30%;
+  padding: 15px;
+}
+
+
+.galeria_polaroid {
+  background-color: rgb(255, 255, 255);
+  padding: 15px 15px 40px 15px;
+  margin: 30px 0;
+  box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.4);
+}
+
+/* GALERIA */
+
+/* GALERIA */
+
+
+
+
+
+
+
+
+/* NOSOTROS */
+
+/* PORTADA */
+.nosotros_portada {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 35px 0;
+
+
+}
+
+.nosotros_portada h1 {
+  font-family: 'Indie Flower', cursive;
+  font-size: 3rem;
+  margin: 35px 0;
+
+}
+
+.nosotros_portada .nosotros_polaroid {
+  background-color: rgb(255, 255, 255);
+  padding: 15px 15px 40px 15px;
+  box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.4);
+}
+
+/* PORTADA */
+
+
+/* CONTENIDO */
+
+.nosotros_main {
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.nosotros img {
+  width: 100%;
+}
+
+.nosotros {
+  display: flex;
+  padding: 35px;
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+}
+
+.nosotros_contenido {
+  flex: 50%;
+  padding: 35px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+.nosotros_polaroid {
+  background-color: rgb(255, 255, 255);
+  padding: 15px 15px 40px 15px;
+  margin: 35px;
+  box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.4);
+}
+
+.nosotros_texto {
+  box-shadow: 2px 2px 30px rgba(255, 255, 255, 0.3);
+  background-color: rgba(1, 1, 1, 0.60);
+  margin: 35px;
+}
+
+.nosotros_texto p {
+  font-size: 1.3rem;
+  font-family: 'Indie Flower', cursive;
+  padding: 15px;
+}
+
+/* CONTENIDO */
+
+/* NOSOTROS */
+
+
+
+/* MEDIA QUERIES */
+
+
+
+/* MOBILE */
+
+
+/*@media only screen and (max-widht:450px){
+  
+}*/

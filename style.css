@@ -336,21 +336,10 @@ footer{
 
 /* CONTACTO */
 
-/* MAIN */
-
-.contacto_main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-
-/* MAIN */
-
 /* TITULO */
 
 .contacto_titulo {
-  margin: 35px 0;
+  margin: 35px auto;
   font-size: 3rem;
   font-family: 'Indie Flower', cursive;
 }
@@ -359,52 +348,43 @@ footer{
 
 /* FORMULARIO */
 
-.contacto_contenedor {
-  /*background-color: rgba(1, 1, 1, 0.8);*/
-  width: 550px;
-  margin: auto;
-  padding: 10px 20px;
-  margin-top: 20px;
-  border-radius: 7px;
-  box-shadow: 8px;
+.formulario{
+  background-color: rgba(1, 1, 1, 0.6);
+  border: none;
+  border-radius: 5px;
 }
 
-.contacto_formulario input,
-.contacto_formulario textarea {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  margin-bottom: 8px;
-  border: none;
+.efecto_1{
+  border: 0;
   outline: none;
-  margin: 5px;
+  width: 100%;
+  padding: 7px 0;
+  border-bottom: 1px solid #ccc;
+  background-color: rgba(0, 0, 0, 0);
+  color: rgb(255, 255, 255);
   font-size: 1.1rem;
   font-family: 'Indie Flower', cursive;
-  background-color: rgba(1, 1, 1, 0.8);
+  letter-spacing: 2px;
+}
+
+textarea{
+  resize: none;
+  height: 30vh;
+}
+
+.btn_1{
+  background: #a81cf9;
   color: rgb(255, 255, 255);
-  padding: 10px;
-}
-
-.contacto_formulario textarea {
-  min-width: 100px;
-}
-
-.contacto_formulario .contacto_btn_enviar {
-  display: flex;
-  background-color: rgba(1, 1, 1, 0.8);
-  width: 100%;
+  outline: none;
   border: none;
-  padding: 15px;
+  border-radius: 5px;
+  height: 40px;
+  width: 100%;
   font-size: 1.3rem;
   font-family: 'Indie Flower', cursive;
-  color: rgb(255, 255, 255);
-  border-radius: 5px;
-  cursor: pointer;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-}
-
+  font-weight: 900;
+  letter-spacing: 2px;
+} 
 
 /* FORMULARIO */
 
@@ -413,7 +393,7 @@ footer{
 .contacto_respuesta {
   font-size: 2rem;
   font-family: 'Indie Flower', cursive;
-  margin: 20px;
+  margin: 20px auto;
 }
 
 /* MENSAJE AL CLIENTE */

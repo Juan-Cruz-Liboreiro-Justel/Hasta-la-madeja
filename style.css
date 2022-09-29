@@ -94,7 +94,7 @@ footer{
 
 /* PROMOCIONES */
 
-.promociones{
+.promociones {
   width: 65%;
   display: flex;
   margin: auto;
@@ -103,7 +103,6 @@ footer{
 .home_promos_contenedor_img {
   background-color: rgb(255, 255, 255);
   padding: 15px 15px 40px 15px;
-  margin: 0 auto;
   box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.4);
 }
 
@@ -112,23 +111,19 @@ footer{
 
 /* INFO */
 
-.home_info {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  margin: 35px 0;
-}
-
 .home_info h2 {
   font-family: 'Indie Flower', cursive;
   font-size: 3rem;
   letter-spacing: 2px;
+  margin: 35px 0;
+  font-weight: 900;
 }
 
 .home_info p {
   font-family: 'Indie Flower', cursive;
   font-size: 1.5rem;
   letter-spacing: 2px;
+  margin: 35px 0;
 }
 
 /* INFO */
@@ -136,97 +131,41 @@ footer{
 
 /* CATEGORIAS */
 
-.home_categorias {
-  width: 100%;
-  margin: auto;
+.categorias__carousel {
+  width: 65%;
   display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-}
- 
-.home_categorias {
-  width: 80%;
-  display: flex;
+  margin: 35px auto;
 }
 
-.home_categorias_cat {
+.categorias__polaroid{
   background-color: rgb(255, 255, 255);
-  padding: 15px;
-  display: inline-block;
-  margin: 0 1rem;
+  padding: 15px 15px 40px 15px;
   box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.4);
-  cursor: pointer;
-  transition: all 0.5s;
 }
 
-.home_categorias_cat_img {
-  filter: brightness(30%);
-  height: 450px;
-}
-.home_categorias_cat:hover{
-  transform: scale(1.05);
-}
-
-.home_categorias_cat:hover>.home_categorias_cat_img{
-  filter: none;
-}
-
-.home_categorias_cat_nombre {
-  font-size: 1.5rem;
-  font-family: 'Indie Flower', cursive;
-  color: rgb(0, 0, 0);
-  padding: 5px;
-  display: flex;
-  justify-content: center;
-}
 
 /* CATEGORIAS */
 
 
-/* PREGUNTAS FRECUENTES */
+/* PREGUNTAS */
+
 .preguntas{
   margin: 35px auto;
 }
 
-.preguntas-frecuentes {
-  font-size: 2rem;
+.accordion-item, .accordion-button, .accordion-button:not(.collapsed){
+  margin: 5px 0;
+  background-color: rgba(1, 1, 1, 0.6);
+  border: none;
+  color: rgb(255, 255, 255);
   font-family: 'Indie Flower', cursive;
-  padding: 5px 25px;
-  background-color: rgba(1, 1, 1, 0.80);
-  box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.4);
-  cursor: pointer;
-  margin: 2px 0;
-  width: 100%;
-  align-items: center;
-}
-
-.preguntas-respuestas {
   font-size: 1.2rem;
-  font-family: 'Indie Flower', cursive;
-  padding: 5px 15px;
-  background-color: rgba(1, 1, 1, 0.60);
-  margin-bottom: 2px;
-  width: 100%;
-}
-
-
-/*.home_preguntas_dudas{
-  font-size: 1.5rem;
-  font-family: 'Indie Flower', cursive;
   letter-spacing: 2px;
-  align-items: center;
-  margin: 15px 0;
 }
 
-.home_preguntas_dudas a {
-  text-decoration: none;
-  font-weight: 700;
-}*/
-
-/* PREGUNTAS FRECUENTES */
+/* PREGUNTAS */
 
 /* HOME */
-
 
 
 
@@ -408,12 +347,6 @@ textarea{
 /* GALERIA */
 
 /* TITULO */
-
-.galeria_titulo {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
 
 .galeria_titulo h1 {
   font-size: 3rem;

@@ -23,16 +23,16 @@ body a {
   cursor: pointer;
 }
 
-.menu{
+.menu {
   display: flex;
   justify-content: end;
 }
 
-.navbar-menu{
+.navbar-menu {
   margin: 30px auto;
 }
 
-.navbar-menu a{
+.navbar-menu a {
   color: rgb(255, 255, 255);
   text-decoration: none;
   font-family: 'Indie Flower', cursive;
@@ -46,18 +46,20 @@ body a {
 .navbar-menu a:hover {
   color: #a81cf9;
 }
+
 /* NAVBAR */
 
-/* FOOTER */ 
+/* FOOTER */
 
-footer{
+footer {
   background-color: rgba(1, 1, 1, 0.8);
   font-size: 0.8rem;
   font-family: 'Indie Flower', cursive;
   letter-spacing: 3.5px;
 }
 
-.footer__txt, .footer__redes{
+.footer__txt,
+.footer__redes {
   margin: 35px 0;
 }
 
@@ -67,7 +69,7 @@ footer{
   margin: 0 20px;
 }
 
-.footer__txt a{
+.footer__txt a {
   color: rgb(255, 255, 255);
   text-decoration: none;
 }
@@ -137,7 +139,7 @@ footer{
   margin: 35px auto;
 }
 
-.categorias__polaroid{
+.categorias__polaroid {
   background-color: rgb(255, 255, 255);
   padding: 15px 15px 40px 15px;
   box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.4);
@@ -149,11 +151,13 @@ footer{
 
 /* PREGUNTAS */
 
-.preguntas{
+.preguntas {
   margin: 35px auto;
 }
 
-.accordion-item, .accordion-button, .accordion-button:not(.collapsed){
+.accordion-item,
+.accordion-button,
+.accordion-button:not(.collapsed) {
   margin: 5px 0;
   background-color: rgba(1, 1, 1, 0.6);
   border: none;
@@ -165,6 +169,23 @@ footer{
 
 /* PREGUNTAS */
 
+/* MENSAJE */
+
+.home_mensaje p {
+  font-family: 'Indie Flower', cursive;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  margin: 15px 0;
+}
+
+.home_mensaje a {
+  text-decoration: none !important;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+}
+
+/* MENSAJE */
+
 /* HOME */
 
 
@@ -174,21 +195,20 @@ footer{
 /* CLIENTES */
 
 /* TITULO */
-.clientes_titulo {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  margin: 35px 0;
-}
 
-.clientes_titulo h1 {
+.clientes_titulo h2 {
   font-family: 'Indie Flower', cursive;
   font-size: 3rem;
+  letter-spacing: 2px;
+  margin: 35px 0;
+  font-weight: 900;
 }
 
 .clientes_titulo p {
   font-family: 'Indie Flower', cursive;
   font-size: 1.5rem;
+  letter-spacing: 2px;
+  margin: 35px 0;
 }
 
 /* TITULO */
@@ -248,7 +268,7 @@ footer{
   margin: auto 0;
 }
 
-.clientes_estrellas{
+.clientes_estrellas {
   color: #a81cf9 !important;
 }
 
@@ -287,13 +307,13 @@ footer{
 
 /* FORMULARIO */
 
-.formulario{
+.formulario {
   background-color: rgba(1, 1, 1, 0.6);
   border: none;
   border-radius: 5px;
 }
 
-.efecto_1{
+.efecto_1 {
   border: 0;
   outline: none;
   width: 100%;
@@ -306,12 +326,12 @@ footer{
   letter-spacing: 2px;
 }
 
-textarea{
+textarea {
   resize: none;
   height: 30vh;
 }
 
-.btn_1{
+.btn_1 {
   background: #a81cf9;
   color: rgb(255, 255, 255);
   outline: none;
@@ -323,7 +343,7 @@ textarea{
   font-family: 'Indie Flower', cursive;
   font-weight: 900;
   letter-spacing: 2px;
-} 
+}
 
 /* FORMULARIO */
 
@@ -404,9 +424,10 @@ textarea{
   box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.4);
 }
 
-.nosotros_polaroid img{
+.nosotros_polaroid img {
   width: 100%;
 }
+
 .nosotros_texto {
   box-shadow: 2px 2px 30px rgba(255, 255, 255, 0.3);
   background-color: rgba(1, 1, 1, 0.60);
@@ -420,13 +441,3 @@ textarea{
 }
 
 /* NOSOTROS */
-
-
-
-/* MEDIA QUERIES */
-
-
-
-/* MOBILE */
-
-

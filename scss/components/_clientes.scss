@@ -1,0 +1,83 @@
+
+/* CLIENTES */
+
+
+
+
+.clientes_main{
+    .clientes_titulo{
+        margin: 35px 0;
+        h1{
+            font-size: 3rem;
+            font-weight: 900;
+        }
+        p{
+            font-size: 1.5rem;
+        }
+    }
+    .clientes {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-bottom: 35px;
+        .clientes_caja {
+            width: 500px;
+            box-shadow: 2px 2px 30px rgba(255, 255, 255, 0.3);
+            background-color: rgba(1, 1, 1, 0.60);
+            padding: 20px;
+            margin: 15px;
+            cursor: pointer;
+            .clientes_caja_top {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 20px;
+                .clientes_perfil {
+                    display: flex;
+                    align-items: center;
+                    .clientes_perfil_img {
+                        width: 50px;
+                        height: 50px;
+                        border-radius: 50%;
+                        overflow: hidden;
+                        margin-right: 30px;
+                        img {
+                            width: 100%;
+                            height: 100%;
+                            object-fit: center;
+                          }
+                      }
+                      .clientes_perfil_nombre {
+                        display: flex;
+                        flex-direction: column;
+                        h2 {
+                            font-size: 1.3rem;
+                            font-family: roboto, "sans serif";
+                            margin: auto 0;
+                          }
+                          p {
+                            font-size: 1rem;
+                            color: rgb(90, 90, 90);
+                            font-family: roboto, "sans serif";
+                            margin: auto 0;
+                          }
+                      }
+                    }
+                    .clientes_estrellas {
+                      color: #a81cf9 !important;
+                    }
+                }
+          }
+          .clientes_opinion{
+            p {
+                font-size: 1.1rem;
+                font-family: roboto, "sans serif";
+              }
+          }
+      }
+}
+
+  /* CLIENTES */
+  

@@ -1,0 +1,30 @@
+/* ESTILOS GENERALES */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(rgba(5, 10, 5, 0.80), rgba(90, 40, 90, 0.80)), url(../img/fondo1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: rgb(255, 255, 255);
+    font-family: 'Indie Flower', cursive;
+    letter-spacing: 2px;
+}
+
+body {
+    a {
+        color: rgb(255, 255, 255);
+        text-decoration: none !important;
+    }
+}
+
+.polaroid{
+    background-color: rgb(255, 255, 255);
+    padding: 15px 15px 40px 15px;
+    box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.4);
+}
+/* ESTILOS GENERALES */

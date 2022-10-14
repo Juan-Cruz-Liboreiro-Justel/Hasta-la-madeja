@@ -1,0 +1,76 @@
+ /* HOME*/
+ /* INFO */
+
+ .home_info {
+     margin: 35px 0;
+
+     h2 {
+         font-size: 3rem;
+         font-weight: 900;
+     }
+
+     p {
+         font-size: 1.5rem;
+     }
+ }
+
+ /* INFO */
+
+
+ /* CATEGORIAS */
+
+ .categorias {
+     .row {
+         .categorias__carousel {
+             display: flex;
+             margin: 35px auto;
+         }
+     }
+ }
+
+ /* CATEGORIAS */
+
+
+ /* PREGUNTAS */
+
+ .preguntas {
+     margin: 35px auto;
+     .accordion-item{
+        margin: 5px 0;
+        background-color: rgba(1, 1, 1, 0.6);
+        border: none;
+        color: rgb(255, 255, 255);
+        .accordion-button{
+            margin: 5px 0;
+            background-color: rgba(1, 1, 1, 0.6);
+            border: none;
+            color: rgb(255, 255, 255);
+        }
+        .accordion-button:not(.collapsed){
+            margin: 5px 0;
+            background-color: rgba(1, 1, 1, 0.6);
+            border: none;
+            color: rgb(255, 255, 255);
+        }
+     }
+ }
+
+ 
+ /* PREGUNTAS */
+
+ /* MENSAJE */
+
+ .home_mensaje{
+    p{
+        font-size: 1.5rem;
+        margin: 15px 0;
+        a{
+            text-decoration: none !important;
+            font-weight: 700;
+        }
+    }
+ }
+
+ /* MENSAJE */
+
+ /* HOME */

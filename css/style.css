@@ -1,0 +1,317 @@
+/* ESTILOS GENERALES */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: linear-gradient(rgba(5, 10, 5, 0.8), rgba(90, 40, 90, 0.8)), url(../img/fondo1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: rgb(255, 255, 255);
+  font-family: "Indie Flower", cursive;
+  letter-spacing: 2px;
+}
+
+body a {
+  color: rgb(255, 255, 255);
+  text-decoration: none !important;
+}
+
+.polaroid {
+  background-color: rgb(255, 255, 255);
+  padding: 15px 15px 40px 15px;
+  box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.4);
+}
+
+/* ESTILOS GENERALES */
+/* CLIENTES */
+.clientes_main .clientes_titulo {
+  margin: 35px 0;
+}
+.clientes_main .clientes_titulo h1 {
+  font-size: 3rem;
+  font-weight: 900;
+}
+.clientes_main .clientes_titulo p {
+  font-size: 1.5rem;
+}
+.clientes_main .clientes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-bottom: 35px;
+}
+.clientes_main .clientes .clientes_caja {
+  width: 500px;
+  box-shadow: 2px 2px 30px rgba(255, 255, 255, 0.3);
+  background-color: rgba(1, 1, 1, 0.6);
+  padding: 20px;
+  margin: 15px;
+  cursor: pointer;
+}
+.clientes_main .clientes .clientes_caja .clientes_caja_top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.clientes_main .clientes .clientes_caja .clientes_caja_top .clientes_perfil {
+  display: flex;
+  align-items: center;
+}
+.clientes_main .clientes .clientes_caja .clientes_caja_top .clientes_perfil .clientes_perfil_img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 30px;
+}
+.clientes_main .clientes .clientes_caja .clientes_caja_top .clientes_perfil .clientes_perfil_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: center;
+}
+.clientes_main .clientes .clientes_caja .clientes_caja_top .clientes_perfil .clientes_perfil_nombre {
+  display: flex;
+  flex-direction: column;
+}
+.clientes_main .clientes .clientes_caja .clientes_caja_top .clientes_perfil .clientes_perfil_nombre h2 {
+  font-size: 1.3rem;
+  font-family: roboto, "sans serif";
+  margin: auto 0;
+}
+.clientes_main .clientes .clientes_caja .clientes_caja_top .clientes_perfil .clientes_perfil_nombre p {
+  font-size: 1rem;
+  color: rgb(90, 90, 90);
+  font-family: roboto, "sans serif";
+  margin: auto 0;
+}
+.clientes_main .clientes .clientes_caja .clientes_caja_top .clientes_estrellas {
+  color: #a81cf9 !important;
+}
+.clientes_main .clientes .clientes_opinion p {
+  font-size: 1.1rem;
+  font-family: roboto, "sans serif";
+}
+
+/* CLIENTES */
+/* CONTACTO */
+.contacto_main .contacto_titulo {
+  font-size: 3rem;
+  margin: 35px auto;
+}
+.contacto_main .contacto .formulario {
+  background-color: rgba(1, 1, 1, 0.6);
+  border: none;
+  border-radius: 5px;
+}
+.contacto_main .contacto .formulario .efecto_1 {
+  border: 0;
+  outline: none;
+  width: 100%;
+  padding: 7px 0;
+  border-bottom: 1px solid #ccc;
+  background-color: rgba(0, 0, 0, 0);
+  color: rgb(255, 255, 255);
+  font-size: 1.1rem;
+}
+.contacto_main .contacto .formulario .pt-5 {
+  padding: 0 0 !important;
+}
+.contacto_main .contacto .formulario .pt-5 textarea {
+  resize: none;
+  height: 30vh;
+}
+.contacto_main .contacto .formulario .btn_1 {
+  background: #a81cf9;
+  color: rgb(255, 255, 255);
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+  width: 100%;
+  font-size: 1.3rem;
+  font-weight: 700;
+  letter-spacing: 3.5px;
+}
+.contacto_main .contacto_respuesta {
+  font-size: 2rem;
+  margin: 20px auto;
+}
+
+/* CONTACTO */
+/* GALERIA */
+/* TITULO */
+.galeria_titulo {
+  letter-spacing: 3.5px;
+}
+.galeria_titulo h1 {
+  font-size: 3rem;
+}
+.galeria_titulo p {
+  font-size: 1.5rem;
+}
+
+/* TITULO */
+#galeria .col-lg-4 {
+  padding: 0 0 !important;
+}
+#galeria .col-lg-4 .polaroid {
+  margin: 15px;
+}
+#galeria .col-lg-4 .polaroid img {
+  width: 100%;
+  height: 50vh;
+  object-fit: cover;
+}
+
+/* GALERIA */
+/* HOME*/
+/* INFO */
+.home_info {
+  margin: 35px 0;
+}
+.home_info h2 {
+  font-size: 3rem;
+  font-weight: 900;
+}
+.home_info p {
+  font-size: 1.5rem;
+}
+
+/* INFO */
+/* CATEGORIAS */
+.categorias .row .categorias__carousel {
+  display: flex;
+  margin: 35px auto;
+}
+
+/* CATEGORIAS */
+/* PREGUNTAS */
+.preguntas {
+  margin: 35px auto;
+}
+.preguntas .accordion-item {
+  margin: 5px 0;
+  background-color: rgba(1, 1, 1, 0.6);
+  border: none;
+  color: rgb(255, 255, 255);
+}
+.preguntas .accordion-item .accordion-button {
+  margin: 5px 0;
+  background-color: rgba(1, 1, 1, 0.6);
+  border: none;
+  color: rgb(255, 255, 255);
+}
+.preguntas .accordion-item .accordion-button:not(.collapsed) {
+  margin: 5px 0;
+  background-color: rgba(1, 1, 1, 0.6);
+  border: none;
+  color: rgb(255, 255, 255);
+}
+
+/* PREGUNTAS */
+/* MENSAJE */
+.home_mensaje p {
+  font-size: 1.5rem;
+  margin: 15px 0;
+}
+.home_mensaje p a {
+  text-decoration: none !important;
+  font-weight: 700;
+}
+
+/* MENSAJE */
+/* HOME */
+/* NOSOTROS */
+.nosotros .nosotros_titulo {
+  font-size: 3rem;
+  margin: 35px 0;
+}
+.nosotros .polaroid {
+  margin: 35px;
+}
+.nosotros .polaroid img {
+  width: 100%;
+}
+.nosotros .nosotros_texto {
+  box-shadow: 2px 2px 30px rgba(255, 255, 255, 0.3);
+  background-color: rgba(1, 1, 1, 0.6);
+  margin: 35px;
+}
+.nosotros .nosotros_texto p {
+  font-size: 1.3rem;
+  padding: 15px;
+}
+
+/* NOSOTROS */
+/* FOOTER */
+footer {
+  background-color: rgba(1, 1, 1, 0.8);
+  font-size: 0.8rem;
+  font-family: "Indie Flower", cursive;
+  letter-spacing: 3.5px;
+}
+footer .footer__txt {
+  margin: 35px 0;
+}
+footer .footer__txt a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+footer .footer__redes {
+  margin: 35px 0;
+}
+footer .footer__redes a img {
+  width: 30px;
+  height: 30px;
+  margin: 0 20px;
+}
+
+/* FOOTER */
+/* BOTON VOLVER A ARRIBA*/
+.btn_arriba a img {
+  width: 60px;
+  height: 60px;
+  position: fixed;
+  bottom: 50px;
+  right: 15px;
+  background-color: rgba(1, 1, 1, 0.8);
+  border-radius: 50%;
+  padding: 4px;
+}
+
+/* BOTON VOLVER A ARRIBA */
+/* NAVBAR */
+.navbar-menu {
+  margin: 30px auto;
+}
+.navbar-menu div .logo {
+  width: 130px;
+  cursor: pointer;
+}
+.navbar-menu div .menu {
+  display: flex;
+  justify-content: end;
+}
+.navbar-menu div .menu ul li a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-family: "Indie Flower", cursive;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-size: 1.2rem;
+  transition: 0.4s ease-out;
+}
+.navbar-menu div .menu ul li a:hover {
+  color: #a81cf9;
+}
+
+/* NAVBAR */
+
+/*# sourceMappingURL=style.css.map */

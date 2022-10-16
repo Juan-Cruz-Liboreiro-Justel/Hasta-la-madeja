@@ -16,9 +16,7 @@
         }
     }
     .clientes {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @extend %flex;
         flex-wrap: wrap;
         width: 100%;
         margin-bottom: 35px;
@@ -74,6 +72,7 @@
             p {
                 font-size: 1.1rem;
                 font-family: roboto, "sans serif";
+                text-align: justify;
               }
           }
       }

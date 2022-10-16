@@ -27,6 +27,19 @@ body a {
 }
 
 /* ESTILOS GENERALES */
+.clientes_main .clientes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.preguntas .accordion-item .accordion-button:not(.collapsed), .preguntas .accordion-item .accordion-button, .preguntas .accordion-item {
+  margin: 5px 0;
+  background-color: rgba(1, 1, 1, 0.6);
+  border: none;
+  color: rgb(255, 255, 255);
+}
+
 /* CLIENTES */
 .clientes_main .clientes_titulo {
   margin: 35px 0;
@@ -39,9 +52,6 @@ body a {
   font-size: 1.5rem;
 }
 .clientes_main .clientes {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   flex-wrap: wrap;
   width: 100%;
   margin-bottom: 35px;
@@ -97,6 +107,7 @@ body a {
 .clientes_main .clientes .clientes_opinion p {
   font-size: 1.1rem;
   font-family: roboto, "sans serif";
+  text-align: justify;
 }
 
 /* CLIENTES */
@@ -173,6 +184,10 @@ body a {
 /* GALERIA */
 /* HOME*/
 /* INFO */
+.promociones .carousel .carousel-inner .carousel-item .home_promos_contenedor_img {
+  width: 100%;
+}
+
 .home_info {
   margin: 35px 0;
 }
@@ -196,25 +211,9 @@ body a {
 .preguntas {
   margin: 35px auto;
 }
-.preguntas .accordion-item {
-  margin: 5px 0;
-  background-color: rgba(1, 1, 1, 0.6);
-  border: none;
-  color: rgb(255, 255, 255);
-}
 .preguntas .accordion-item .accordion-button {
-  margin: 5px 0;
-  background-color: rgba(1, 1, 1, 0.6);
-  border: none;
-  color: rgb(255, 255, 255);
+  letter-spacing: 2px;
 }
-.preguntas .accordion-item .accordion-button:not(.collapsed) {
-  margin: 5px 0;
-  background-color: rgba(1, 1, 1, 0.6);
-  border: none;
-  color: rgb(255, 255, 255);
-}
-
 /* PREGUNTAS */
 /* MENSAJE */
 .home_mensaje p {
@@ -247,6 +246,7 @@ body a {
 .nosotros .nosotros_texto p {
   font-size: 1.3rem;
   padding: 15px;
+  text-align: center;
 }
 
 /* NOSOTROS */
@@ -254,7 +254,6 @@ body a {
 footer {
   background-color: rgba(1, 1, 1, 0.8);
   font-size: 0.8rem;
-  font-family: "Indie Flower", cursive;
   letter-spacing: 3.5px;
 }
 footer .footer__txt {
@@ -302,9 +301,7 @@ footer .footer__redes a img {
 .navbar-menu div .menu ul li a {
   color: rgb(255, 255, 255);
   text-decoration: none;
-  font-family: "Indie Flower", cursive;
   font-weight: 700;
-  letter-spacing: 2px;
   font-size: 1.2rem;
   transition: 0.4s ease-out;
 }

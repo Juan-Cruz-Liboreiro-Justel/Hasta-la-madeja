@@ -184,8 +184,22 @@ body a {
 /* GALERIA */
 /* HOME*/
 /* INFO */
+@media screen and (max-width: 450px) {
+  .promociones {
+    display: none;
+  }
+}
 .promociones .carousel .carousel-inner .carousel-item .home_promos_contenedor_img {
   width: 100%;
+}
+
+.promociones-mobile {
+  display: none;
+}
+@media screen and (max-width: 450px) {
+  .promociones-mobile {
+    display: flex;
+  }
 }
 
 .home_info {

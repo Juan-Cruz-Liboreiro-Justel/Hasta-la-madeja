@@ -2,6 +2,10 @@
  /* INFO */
 
 .promociones{
+    @media screen and (max-width:450px) {
+        display: none;
+    }
+
     .carousel{
         .carousel-inner{
             .carousel-item{
@@ -10,6 +14,14 @@
                 }
             }
         }
+    }
+}
+
+
+.promociones-mobile{
+    display: none;
+    @media screen and (max-width:450px) {
+        display: flex;
     }
 }
 

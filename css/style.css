@@ -22,7 +22,7 @@ body a {
 
 .polaroid {
   background-color: rgb(255, 255, 255);
-  padding: 15px 15px 40px 15px;
+  padding: 15px 15px 65px 15px;
   box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.4);
 }
 
@@ -215,9 +215,10 @@ body a {
 
 /* INFO */
 /* CATEGORIAS */
-.categorias .row .categorias__carousel {
+.categorias .categorias__carousel {
   display: flex;
   margin: 35px auto;
+  padding: 15px 15px 15px 15px;
 }
 
 /* CATEGORIAS */
@@ -309,7 +310,6 @@ footer .footer__redes a img {
   cursor: pointer;
 }
 .navbar-menu div .menu {
-  display: flex;
   justify-content: end;
 }
 .navbar-menu div .menu ul li a {

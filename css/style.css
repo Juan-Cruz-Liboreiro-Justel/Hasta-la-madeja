@@ -230,11 +230,11 @@ body a {
 }
 /* PREGUNTAS */
 /* MENSAJE */
-.home_mensaje p {
+.home_mensaje .home_mensaje_row .home_texto p {
   font-size: 1.5rem;
   margin: 15px 0;
 }
-.home_mensaje p a {
+.home_mensaje .home_mensaje_row .home_texto p a {
   text-decoration: none !important;
   font-weight: 700;
 }

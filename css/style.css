@@ -243,6 +243,11 @@ body a {
 /* MENSAJE */
 /* HOME */
 /* NOSOTROS */
+@media screen and (max-width: 450px) {
+  .nosotros .nosotros_portada {
+    display: none;
+  }
+}
 .nosotros .nosotros_titulo {
   font-size: 3rem;
   margin: 35px 0;

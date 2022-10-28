@@ -1,33 +1,38 @@
- 
-/* NOSOTROS */
+ /* NOSOTROS */
+ @import '../base/mixin';
 
-.nosotros{
-    .nosotros_portada{
-        @media screen and (max-width:450px) {
-            display: none;
-        }
-    }
-    .nosotros_titulo{
-        font-size: 3rem;
-        margin: 35px 0;
-    }
-    .polaroid {
-        margin: 35px;
-        img{
-            width: 100%;
-        }
-    }
-    .nosotros_texto {
-        box-shadow: 2px 2px 30px rgba(255, 255, 255, 0.3);
-        background-color: rgba(1, 1, 1, 0.60);
-        margin: 35px;
-        p{
-            font-size: 1.3rem;
-            padding: 15px;
-            text-align: center;
-        }
-      }
-}
+ .nosotros {
+   .nosotros_portada {
+     @media screen and (max-width:450px) {
+       display: none;
+     }
+   }
+
+   .nosotros_titulo {
+     @include font(3rem, 900);
+     margin: 35px 0;
+   }
+
+   .polaroid {
+     margin: 35px;
+
+     img {
+       width: 100%;
+     }
+   }
+
+   .nosotros_texto {
+     box-shadow: 2px 2px 30px rgba(255, 255, 255, 0.3);
+     background-color: rgba(1, 1, 1, 0.60);
+     margin: 35px;
+
+     p {
+       @include font(1.3rem, 500);
+       padding: 15px;
+       text-align: center;
+     }
+   }
+ }
 
 
-  /* NOSOTROS */ 
+ /* NOSOTROS */

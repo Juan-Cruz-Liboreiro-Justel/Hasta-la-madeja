@@ -14,10 +14,13 @@ body {
   font-family: "Indie Flower", cursive;
   letter-spacing: 2px;
 }
-
 body a {
   color: rgb(255, 255, 255);
   text-decoration: none !important;
+}
+
+body::selection {
+  background: #a81cf9;
 }
 
 .polaroid {
@@ -50,6 +53,7 @@ body a {
 }
 .clientes_main .clientes_titulo p {
   font-size: 1.5rem;
+  font-weight: 500;
 }
 .clientes_main .clientes {
   flex-wrap: wrap;
@@ -114,6 +118,7 @@ body a {
 /* CONTACTO */
 .contacto_main .contacto_titulo {
   font-size: 3rem;
+  font-weight: 900;
   margin: 35px auto;
 }
 .contacto_main .contacto .formulario {
@@ -146,26 +151,28 @@ body a {
   border-radius: 5px;
   height: 40px;
   width: 100%;
+  letter-spacing: 3.5px;
   font-size: 1.3rem;
   font-weight: 700;
-  letter-spacing: 3.5px;
 }
 .contacto_main .contacto_respuesta {
   font-size: 2rem;
+  font-weight: 500;
   margin: 20px auto;
 }
 
 /* CONTACTO */
 /* GALERIA */
 /* TITULO */
-.galeria_titulo {
-  letter-spacing: 3.5px;
-}
 .galeria_titulo h1 {
   font-size: 3rem;
+  font-weight: 900;
+  letter-spacing: 3.5px;
 }
 .galeria_titulo p {
   font-size: 1.5rem;
+  font-weight: 500;
+  letter-spacing: 3.5px;
 }
 
 /* TITULO */
@@ -211,6 +218,7 @@ body a {
 }
 .home_info p {
   font-size: 1.5rem;
+  font-weight: 500;
 }
 
 /* INFO */
@@ -233,6 +241,7 @@ body a {
 /* MENSAJE */
 .home_mensaje .home_mensaje_row .home_texto p {
   font-size: 1.5rem;
+  font-weight: 500;
   margin: 15px 0;
 }
 .home_mensaje .home_mensaje_row .home_texto p a {
@@ -250,6 +259,7 @@ body a {
 }
 .nosotros .nosotros_titulo {
   font-size: 3rem;
+  font-weight: 900;
   margin: 35px 0;
 }
 .nosotros .polaroid {
@@ -265,6 +275,7 @@ body a {
 }
 .nosotros .nosotros_texto p {
   font-size: 1.3rem;
+  font-weight: 500;
   padding: 15px;
   text-align: center;
 }
@@ -274,6 +285,7 @@ body a {
 footer {
   background-color: rgba(1, 1, 1, 0.8);
   font-size: 0.8rem;
+  font-weight: 500;
   letter-spacing: 3.5px;
 }
 footer .footer__txt {
@@ -320,8 +332,8 @@ footer .footer__redes a img {
 .navbar-menu div .menu ul li a {
   color: rgb(255, 255, 255);
   text-decoration: none;
+  font-size: 1.3rem;
   font-weight: 700;
-  font-size: 1.2rem;
   transition: 0.4s ease-out;
 }
 .navbar-menu div .menu ul li a:hover {

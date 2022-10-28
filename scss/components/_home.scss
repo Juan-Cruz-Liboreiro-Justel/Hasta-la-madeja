@@ -1,44 +1,44 @@
  /* HOME*/
  /* INFO */
+ @import '../base/mixin';
 
  .promociones {
-     @media screen and (max-width:450px) {
-         display: none;
-     }
+   @media screen and (max-width:450px) {
+     display: none;
+   }
 
-     .carousel {
-         .carousel-inner {
-             .carousel-item {
-                 .home_promos_contenedor_img {
-                     width: 100%;
-                 }
-             }
+   .carousel {
+     .carousel-inner {
+       .carousel-item {
+         .home_promos_contenedor_img {
+           width: 100%;
          }
+       }
      }
+   }
  }
 
 
  .promociones-mobile {
-     display: none;
+   display: none;
 
-     @media screen and (max-width:450px) {
-         display: flex;
-     }
+   @media screen and (max-width:450px) {
+     display: flex;
+   }
  }
 
 
 
  .home_info {
-     margin: 35px 0;
+   margin: 35px 0;
 
-     h2 {
-         font-size: 3rem;
-         font-weight: 900;
-     }
+   h2 {
+     @include font(3rem, 900);
+   }
 
-     p {
-         font-size: 1.5rem;
-     }
+   p {
+     @include font(1.5rem, 500);
+   }
  }
 
  /* INFO */
@@ -47,11 +47,11 @@
  /* CATEGORIAS */
 
  .categorias {
-     .categorias__carousel {
-         display: flex;
-         margin: 35px auto;
-         padding: 15px 15px 15px 15px;
-     }
+   .categorias__carousel {
+     display: flex;
+     margin: 35px auto;
+     padding: 15px 15px 15px 15px;
+   }
 
  }
 
@@ -61,20 +61,20 @@
  /* PREGUNTAS */
 
  .preguntas {
-     margin: 35px auto;
+   margin: 35px auto;
 
-     .accordion-item {
-         @extend %accordion;
+   .accordion-item {
+     @extend %accordion;
 
-         .accordion-button {
-             @extend %accordion;
-             letter-spacing: 2px;
-         }
-
-         .accordion-button:not(.collapsed) {
-             @extend %accordion;
-         }
+     .accordion-button {
+       @extend %accordion;
+       letter-spacing: 2px;
      }
+
+     .accordion-button:not(.collapsed) {
+       @extend %accordion;
+     }
+   }
  }
 
 
@@ -83,19 +83,19 @@
  /* MENSAJE */
 
  .home_mensaje {
-     .home_mensaje_row {
-         .home_texto {
-             p {
-                 font-size: 1.5rem;
-                 margin: 15px 0;
+   .home_mensaje_row {
+     .home_texto {
+       p {
+         @include font(1.5rem, 500);
+         margin: 15px 0;
 
-                 a {
-                     text-decoration: none !important;
-                     font-weight: 700;
-                 }
-             }
+         a {
+           text-decoration: none !important;
+           font-weight: 700;
          }
+       }
      }
+   }
  }
 
  /* MENSAJE */

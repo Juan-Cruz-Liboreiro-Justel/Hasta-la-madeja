@@ -1,55 +1,56 @@
 /* CONTACTO */
-
+@import '../base/mixin';
 
 .contacto_main {
-    .contacto_titulo {
-        font-size: 3rem;
-        margin: 35px auto;
-    }
+  .contacto_titulo {
+    @include font(3rem, 900);
+    margin: 35px auto;
+  }
 
-    .contacto {
-        .formulario {
-            background-color: rgba(1, 1, 1, 0.6);
-            border: none;
-            border-radius: 5px;
+  .contacto {
+    .formulario {
+      background-color: rgba(1, 1, 1, 0.6);
+      border: none;
+      border-radius: 5px;
 
-            .efecto_1 {
-                border: 0;
-                outline: none;
-                width: 100%;
-                padding: 7px 0;
-                border-bottom: 1px solid #ccc;
-                background-color: rgba(0, 0, 0, 0);
-                color: rgb(255, 255, 255);
-                font-size: 1.1rem;
-            }
-            .pt-5{
-                padding: 0 0 !important;
-                textarea {
-                    resize: none;
-                    height: 30vh;
-                }
-            }
+      .efecto_1 {
+        border: 0;
+        outline: none;
+        width: 100%;
+        padding: 7px 0;
+        border-bottom: 1px solid #ccc;
+        background-color: rgba(0, 0, 0, 0);
+        color: rgb(255, 255, 255);
+        font-size: 1.1rem;
+      }
 
-            .btn_1 {
-                background: #a81cf9;
-                color: rgb(255, 255, 255);
-                outline: none;
-                border: none;
-                border-radius: 5px;
-                height: 40px;
-                width: 100%;
-                font-size: 1.3rem;
-                font-weight: 700;
-                letter-spacing: 3.5px;
-            }
+      .pt-5 {
+        padding: 0 0 !important;
+
+        textarea {
+          resize: none;
+          height: 30vh;
         }
-    }
+      }
 
-    .contacto_respuesta {
-        font-size: 2rem;
-        margin: 20px auto;
+      .btn_1 {
+        background: #a81cf9;
+        color: rgb(255, 255, 255);
+        outline: none;
+        border: none;
+        border-radius: 5px;
+        height: 40px;
+        width: 100%;
+        letter-spacing: 3.5px;
+        @include font(1.3rem, 700);
+      }
     }
+  }
+
+  .contacto_respuesta {
+    @include font(2rem, 500);
+    margin: 20px auto;
+  }
 }
 
 
